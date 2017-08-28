@@ -56,7 +56,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'部署文档'
-copyright = u'2017, wanhongming'
+copyright = u'2017, SONMA'
 author = u'wanhongming'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -73,7 +73,7 @@ release = '1.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en'
+language = 'zh_CN'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -159,7 +159,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'sphinx.tex', u'部署文档 Documentation',
+    (master_doc, 'sphinx.tex', u'部署文档',
      'wanhongming', 'manual'),
 ]
 
@@ -169,7 +169,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sphinx', '部署文档 Documentation',
+    (master_doc, 'sphinx', '部署文档',
      [author], 1)
 ]
 
@@ -180,7 +180,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'sphinx', u'部署文档 Documentation',
+    (master_doc, 'sphinx', u'部署文档',
      author, 'sphinx', 'One line description of project.',
      'Miscellaneous'),
 ]
